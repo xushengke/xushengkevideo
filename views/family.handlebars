@@ -1,0 +1,22 @@
+<h1>{{title}}</h1>
+<br>
+<p>{{message}}</p>
+<br>
+<div>
+    <h2>Family</h2>
+    <ul>
+        {{#each data}}
+        <li>
+            <h3>{{movies_name}}</h3>
+            <img src="images/{{movies_pic}}" alt="{{movies_name}}">
+            <p>{{movies_desc}}</p>
+            <video id="myVideo" controls>
+                        <source src="videos/{{movies_trailer}}" type="video/mp4"/>
+                        <!-- <source src="video/Rishard-sherman.ogv" type="video/ogg"/>
+                        <source src="video/Rishard-sherman.webm" type="video/webm"/> -->
+                        Your browser does not support the video tag.
+              </video>
+        </li>
+        {{/each}}
+    </ul>
+</div>
