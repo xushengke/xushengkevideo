@@ -1,20 +1,9 @@
-//Mac
-var config = {
-   user    : 'root',
-   password: 'root',
-   port    : 8889,
-   host    : 'localhost',
-   database: 'db_videoapp',
-
-   kidsmode: false
-};
-
-//Windows
-// var config = {
-//     user    : 'root',
-//     password: '',
-//     host    : 'localhost',
-//     database: 'db_roku'
-// };
+const config = {
+  host : "localhost",
+  port : 8889,
+  user : "root",
+  password : "root",
+  database : "db_videofinal"
+}
 
 module.exports = config;
